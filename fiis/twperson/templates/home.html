@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head land="es">
+	<meta charset="UTF-8">
+	<title></title>
+	<link href="{% static 'dist/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet"/>
+</head>
+<body>
+
+<h1>home</h1>
+<a href="/admin">panel de control</a>
+
+
+<ul>
+  <li>{{ users }} 	{{ status }}</li>
+
+</ul>
+</ul>
+
+</body>
+<script scr='{% static 'dist/jquery/jquery-1.11.3.min.js' %}'/> </script>
+<script scr='{% static 'dist/bootstrap/bootstrap.min.js' %}'/> </script>
+</html>	
